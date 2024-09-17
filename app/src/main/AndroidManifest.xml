@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AmenitySearch"
+        tools:targetApi="31">
+        <activity
+            android:name=".Fire_Service"
+            android:exported="false" />
+        <activity
+            android:name=".Ambulance"
+            android:exported="false" />
+        <activity
+            android:name=".Zoomlion"
+            android:exported="false" />
+        <activity
+            android:name=".ECG"
+            android:exported="false" />
+        <activity
+            android:name=".Immigration"
+            android:exported="false" />
+        <activity
+            android:name=".GES"
+            android:exported="false" />
+        <activity
+            android:name=".Statistical"
+            android:exported="false" />
+        <activity
+            android:name=".NSS"
+            android:exported="false" />
+        <activity
+            android:name=".Prison"
+            android:exported="false" />
+        <activity
+            android:name=".Audit"
+            android:exported="false" />
+        <activity
+            android:name=".Health_Directorate"
+            android:exported="false" />
+        <activity
+            android:name=".NPP"
+            android:exported="false" />
+        <activity
+            android:name=".Electoral_Commision"
+            android:exported="false" />
+        <activity
+            android:name=".Forest"
+            android:exported="false" />
+        <activity
+            android:name=".Police_Market"
+            android:exported="false" />
+        <activity
+            android:name=".Police_Head"
+            android:exported="false" />
+        <activity
+            android:name=".Municipal_Assembly"
+            android:exported="false" />
+        <activity
+            android:name=".Police_District"
+            android:exported="false" />
+        <activity
+            android:name=".Ho_Municipal_Assembly"
+            android:exported="false" />
+        <activity
+            android:name=".Public_Services"
+            android:exported="false" />
+        <activity
+            android:name=".NHIS_Regional"
+            android:exported="false" />
+        <activity
+            android:name=".Woesor_hotel"
+            android:exported="false" />
+        <activity
+            android:name=".Vichales_hotel"
+            android:exported="false" />
+        <activity
+            android:name=".Chances_Hotel"
+            android:exported="false" />
+        <activity
+            android:name=".Rocklyne_Hotel"
+            android:exported="false" />
+        <activity
+            android:name=".Lawnia_hotel"
+            android:exported="false" />
+        <activity
+            android:name=".Pearls"
+            android:exported="false" />
+        <activity
+            android:name=".Instrument"
+            android:exported="false" />
+        <activity
+            android:name=".Holy_Spirit"
+            android:exported="false" />
+        <activity
+            android:name=".Ho_Dome_school"
+            android:exported="false" />
+        <activity
+            android:name=".Genius_IT_map"
+            android:exported="false" />
+        <activity
+            android:name=".Futech"
+            android:exported="false" />
+        <activity
+            android:name=".epschool_bankoe"
+            android:exported="false" />
+        <activity
+            android:name=".Agape_Harvest"
+            android:exported="false" />
+        <activity
+            android:name=".Adonai_University"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Mawuli_Post"
+            android:exported="false" />
+        <activity
+            android:name=".Ghana_Water"
+            android:exported="false" />
+        <activity
+            android:name=".Westec_security"
+            android:exported="false" />
+        <activity
+            android:name=".Coordinating"
+            android:exported="false" />
+        <activity
+            android:name=".DVLA"
+            android:exported="false" />
+        <activity
+            android:name=".Uptown_Fitness"
+            android:exported="false" />
+        <activity
+            android:name=".Ghana_Post"
+            android:exported="false" />
+        <activity
+            android:name=".Tilly_event"
+            android:exported="false" />
+        <activity
+            android:name=".TS_Fitness"
+            android:exported="false" />
+        <activity
+            android:name=".NEW_STADIUM"
+            android:exported="false" />
+        <activity
+            android:name=".MTN_office"
+            android:exported="false" />
+        <activity
+            android:name=".Stanbic_Bank"
+            android:exported="false" />
+        <activity
+            android:name=".Zenith_Bank"
+            android:exported="false" />
+        <activity
+            android:name=".Barclays_Bank"
+            android:exported="false" />
+        <activity
+            android:name=".SG_Bank"
+            android:exported="false" />
+        <activity
+            android:name=".NIB"
+            android:exported="false" />
+        <activity
+            android:name=".GCB"
+            android:exported="false" />
+        <activity
+            android:name=".Access_Bank"
+            android:exported="false" />
+        <activity
+            android:name=".Yalis_Collection"
+            android:exported="false" />
+        <activity
+            android:name=".Rich_Citi"
+            android:exported="false" />
+        <activity
+            android:name=".Melcom_Ho"
+            android:exported="false" />
+        <activity
+            android:name=".LIZZ_dee"
+            android:exported="false" />
+        <activity
+            android:name=".Liqour_Land"
+            android:exported="false" />
+        <activity
+            android:name=".Letsa_Mall"
+            android:exported="false" />
+        <activity
+            android:name=".Ho_Shopping_Mall"
+            android:exported="false" />
+        <activity
+            android:name=".Connie_Cosmetics"
+            android:exported="false" />
+        <activity
+            android:name=".ClassHouse"
+            android:exported="false" />
+        <activity
+            android:name=".Bedwin_Wine"
+            android:exported="false" />
+        <activity
+            android:name=".Rolis_pissa"
+            android:exported="false" />
+        <activity
+            android:name=".Mothers_Inn"
+            android:exported="false" />
+        <activity
+            android:name=".Christain_Garden_Res"
+            android:exported="false" />
+        <activity
+            android:name=".Bravos_Food"
+            android:exported="false" />
+        <activity
+            android:name=".SolokoCofeShop"
+            android:exported="false" />
+        <activity
+            android:name=".Lords_Garden"
+            android:exported="false" />
+        <activity
+            android:name=".JS_Cafe"
+            android:exported="false" />
+        <activity
+            android:name=".Red_Dot"
+            android:exported="false" />
+        <activity
+            android:name=".KFC_HO"
+            android:exported="false" />
+        <activity
+            android:name=".The_Joint_Cafe"
+            android:exported="false" />
+        <activity
+            android:name=".Sylvia_Kitchen"
+            android:exported="false" />
+        <activity
+            android:name=".Life_Oven_Res"
+            android:exported="false" />
+        <activity
+            android:name=".Flavours_Restaurant"
+            android:exported="false" />
+        <activity
+            android:name=".Batatas_Restaurant"
+            android:exported="false" />
+        <activity
+            android:name=".KCS_Restaurant"
+            android:exported="false" />
+        <activity
+            android:name=".Ho_Teaching_Hospital"
+            android:exported="false" />
+        <activity
+            android:name=".Victorious_Mt_Sion_Pharmacy"
+            android:exported="false" />
+        <activity
+            android:name=".Carthur_pharmacy"
+            android:exported="false" />
+        <activity
+            android:name=".Dominion_care_pharmacy"
+            android:exported="false" />
+        <activity
+            android:name=".Top_up_Pharmacy"
+            android:exported="false" />
+        <activity
+            android:name=".Deladem_Pharmacy"
+            android:exported="false" />
+        <activity
+            android:name=".Citi_Pharmacy"
+            android:exported="false" />
+        <activity
+            android:name=".Ernest_Chemist"
+            android:exported="false" />
+        <activity
+            android:name=".Ho_Poly_Clinic"
+            android:exported="false" />
+        <activity
+            android:name=".Ho_Royal_Hospital"
+            android:exported="false" />
+        <activity
+            android:name=".Ho_Military_Hospital"
+            android:exported="false" />
+        <activity
+            android:name=".Xornam_Pharmacy"
+            android:exported="false" />
+        <activity
+            android:name=".Lena_Pharmacy"
+            android:exported="false" />
+        <activity
+            android:name=".Ho_Municipal_Hospital"
+            android:exported="false" />
+        <activity
+            android:name=".Sacred_Heart_Cathedral"
+            android:exported="false" />
+        <activity
+            android:name=".Hall_of_Stregnth"
+            android:exported="false" />
+        <activity
+            android:name=".Jesus_The_Way"
+            android:exported="false" />
+        <activity
+            android:name=".Love_Economy"
+            android:exported="false" />
+        <activity
+            android:name=".EP_Church"
+            android:exported="false" />
+        <activity
+            android:name=".StMichaelCatholic"
+            android:exported="false" />
+        <activity
+            android:name=".AssemblirsOfGodHtu"
+            android:exported="false" />
+        <activity
+            android:name=".SaintFrancis"
+            android:exported="false" />
+        <activity
+            android:name=".Pentecostchurch"
+            android:exported="false" />
+        <activity
+            android:name=".EpChurchHead"
+            android:exported="false" />
+        <activity
+            android:name=".FirstLove"
+            android:exported="false" />
+        <activity
+            android:name=".ParadiseInternational"
+            android:exported="false" />
+        <activity
+            android:name=".AssembliesOfGodCentral"
+            android:exported="false" />
+        <activity
+            android:name=".PublicServices"
+            android:exported="false" />
+        <activity
+            android:name=".RecreationalAmenities"
+            android:exported="false" />
+        <activity
+            android:name=".ReligiousAmenities"
+            android:exported="false" />
+        <activity
+            android:name=".HealthAndWelness"
+            android:exported="false" />
+        <activity
+            android:name=".Financial"
+            android:exported="false" />
+        <activity
+            android:name=".ShoppingDinning"
+            android:exported="false" />
+        <activity
+            android:name=".MyPlaceGuest"
+            android:exported="false" />
+        <activity
+            android:name=".EbeneserLodge"
+            android:exported="false" />
+        <activity
+            android:name=".HotelSteven"
+            android:exported="false" />
+        <activity
+            android:name=".scrollview"
+            android:exported="false" />
+        <activity
+            android:name=".FreedomHotel"
+            android:exported="false" />
+        <activity
+            android:name=".VoltaSerene"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SkyPlus"
+            android:exported="false" />
+        <activity
+            android:name=".Housing"
+            android:exported="false" />
+        <activity
+            android:name=".HTU"
+            android:exported="false" />
+        <activity
+            android:name=".UHAS"
+            android:exported="false" />
+        <activity
+            android:name=".OLA"
+            android:exported="false" />
+        <activity
+            android:name=".Mawuli"
+            android:exported="false" />
+        <activity
+            android:name=".HoNTC"
+            android:exported="false" />
+        <activity
+            android:name=".EducationalAmenities"
+            android:exported="false" />
+        <activity
+            android:name=".AmenityType"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
